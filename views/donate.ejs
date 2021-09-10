@@ -1,0 +1,26 @@
+<%- include("partials/header1"); -%>
+	<!DOCTYPE html>
+	<html lang="en" dir="ltr">
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="/css/add.css">
+		<form class="" action="/donate" method="post" enctype="multipart/form-data">
+			<div class="popup">
+				<div class="popup-content">
+					<input class="form-control" type="text" placeholder="Enter Username" name="username">
+					<input class="form-control" type="text" placeholder="Enter email" name="email">
+					<input class="form-control" type="text" placeholder="Enter Phone Number" name="phone">
+					<input type="text" placeholder="Select A image for your photo" readonly><input type='file' id="proimg" name="proimg" required />
+					<input class="form-control" type="text" placeholder="Enter Product name" name="proname">
+					<button class="btn btn-primary" type="submit" name="button">Recycle</button>
+				</div>
+			</div>
+		</form>
+
+
+
+
+
+<%- include("partials/footer"); -%>

@@ -1,0 +1,228 @@
+
+html{
+  min-height: 100%;
+  position: relative;
+}
+
+.card-footer p {
+  color: #8f8f8f;
+  font-size: 2rem;
+  padding-top: 5%;
+}
+
+.login_developers{
+  height: 350px;
+  width: 400px;
+  padding: 40px 25px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 2px 3px 5px 4px #000000;
+}
+
+
+.login_students{
+  height: 350px;
+  width: 400px;
+  padding: 40px 25px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 2px 3px 5px 4px #000000;
+}
+
+.login_students-signup{
+  height: 400px;
+  width: 400px;
+  padding: 40px 25px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 2px 3px 5px 4px #000000;
+}
+
+
+.login_students-signup p{
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	font-size: 1.6rem;
+	color: #6C6C6C;
+}
+
+.login_developers p{
+	color:#6C6C6C;
+	font-weight: 2;
+	font-size: 20px;
+	padding-left: 7%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.login_developers h1{
+	padding-left: 7%;
+}
+
+body{
+	background-color: #f6f5ff;
+}
+
+
+.loginadminbtn{
+	padding-left: 7%;
+	font-size: 20px;
+}
+
+ul.b{
+	list-style-type: square;
+	padding-top: 5px;
+	font-size: 20px;
+	
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+	padding-top: 20px;
+	padding-bottom: 15px;
+	font-size: 15px;
+	letter-spacing: 5px;
+	background-color: #c5f2fc;
+}
+
+.navbar-brand p{
+	text-align: left;
+}
+
+.navbar-nav  li a:hover {
+    color: #1abc9c;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	background-color: #021c22;
+	position: bottom;
+}
+
+.footer p {
+	margin-top: 30px;
+	font-size: 18px;
+  color: #fff;
+}
+
+.aboutus h1{
+	font-size: 5.5rem;
+	padding-top: 5%;
+}
+
+
+.aboutusinfo{
+  height: 400px;
+  width: 480px;
+  padding: 40px 25px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 2px 3px 5px 4px #000000;
+}
+
+
+.aboutusinfo p{
+	font-size: 16px;
+	color: #6C6C6C;
+	line-height: 2;
+}
+
+.container-fluid{
+  padding: 7% 25%;
+}
+
+#resources{
+	padding: 100px;
+}
+
+
+.resources-column {
+	 padding: 3% 2%;
+}
+
+.resourcesheading h1{
+	text-align: center;
+	padding: 2rem;
+	margin-right: 7rem;
+}
+
+.keeplearningheading{
+	padding-right: 7rem;
+}
+
+.keeplearningheading h1{
+	margin-bottom: 3rem;
+	font-size: 5.5rem;
+}
+
+.keeplearningheading p{
+	font-size: 2rem;
+	color: #6C6C6C;
+}
+
+.container-fluid-learn{
+	padding: 7% 15%;
+}
+
+.container-fluid-login{
+	padding: 7% 15%;
+}
+
+.popup{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.popup-content{
+	height: auto;
+	width: 500px;
+	background: #b3d1ff;
+	padding: 20px;
+	border-radius: 5px;
+	position: relative;
+}
+
+input{
+	margin: 20px auto;
+	display:block;
+	width: 50%;
+	padding: 8px;
+	border: 1px solid gray;
+}
+
+
+.close{
+	position: absolute;
+	top: -27px;
+	right: -27px;
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
+}
+
+
+
+
+

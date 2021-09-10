@@ -1,0 +1,113 @@
+
+#NavigationBar
+{
+  width: 100%;
+
+
+}
+
+#title-bar
+{
+  width:100%;
+  height: 600px;
+  background-color: #f6f5ff;
+
+
+}
+
+
+
+
+#carouselExampleFade
+{
+  margin: 20px 0px 20px 0px;
+  width:100%;
+  height: 500px;
+  background-color:  #f6f5ff;
+
+
+
+}
+
+.slide-image
+{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.navbar {
+	padding-top: 20px;
+	padding-bottom: 15px;
+	font-size: 15px;
+	letter-spacing: 5px;
+	background-color: #c5f2fc;
+}
+
+.navbar-brand p{
+	text-align: left;
+}
+
+.navbar-nav  li a:hover {
+    color: #1abc9c;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	background-color: #021c22;
+	position: bottom;
+}
+
+.footer p {
+	margin-top: 30px;
+	font-size: 18px;
+  color: #fff;
+}
+
+.Headingto
+{
+  height: 100px;
+
+  background-color: green;
+  margin: 20px;
+
+}
+.Headingto h1
+{
+  text-align: center;
+
+}
+.Table-Events
+{
+
+  height: 600px;
+  margin: auto;
+  width:1000px;
+
+}
+
+.Dropdown-Vesevent
+{
+  height: 800px;
+  margin:20px;
+  background-color: #f6f5ff;
+
+}
+
+.Vesevent
+{
+  position:relative;
+  left:65%;
+  padding-right: 20px;
+
+}
+

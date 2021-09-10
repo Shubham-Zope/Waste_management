@@ -1,0 +1,47 @@
+<%- include("partials/header"); -%>
+<div class="container-fluid-login">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class = "login_developers">
+               <h1>For User</h1>
+	               <p>All the user who want to recycle or sell product then can register here</p>
+	           <div class="loginadminbtn">
+	               <button id="button" class="btn btn-primary"><h4>Login here</h4></button>
+	            </div>
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div class="login_students">
+                <h1>Recycle It All-- No matter how small</h1>
+   <p>Please recycle or sell products</p>
+   <br>Once you have logged in, you can visit the page to get a list of products, and you can donate or sell something.</br></p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<form class="" action="/login" method="post">
+<div class="popup">
+    <div class="popup-content">
+	    <img src="close1.jpg" alt="close" class="close">
+	    <input class="form-control" type="text" placeholder="Email" name="email">
+		<input class="form-control" type="password" placeholder="Password" name="pass">
+		<button class="btn btn-primary" type="submit" name="button">Login</button>
+	</div>
+</div>
+</form>
+
+
+<script>
+    document.getElementById("button").addEventListener("click", function(){
+	    document.querySelector(".popup").style.display="flex";
+	});
+
+	document.querySelector(".close").addEventListener("click", function(){
+	    document.querySelector(".popup").style.display="none";
+	})
+</script>
+<%- include("partials/footer"); -%>
